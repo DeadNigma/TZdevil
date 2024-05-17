@@ -1,0 +1,53 @@
+body {
+            font-family: Calibri;
+            background-color: gray;
+        }
+
+        /* поля ввода */
+        input[type=email], input[type=password] {
+            width: 430px;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: 1px solid black;
+            background: #f1f1f1;
+        }
+
+        input[type=text]:focus, input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+        /* кнопка входа */
+        .logInButt {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 462px;
+            opacity: 0.9;
+        }
+
+        .logInButt:hover {
+            opacity: 1;
+        }
+
+        /* главное окно*/
+        .window {
+        box-sizing: border-box;
+        width: 500px;
+        padding: 16px;
+        border: 1px solid  black;
+        background: #f1f1f1;
+        background-color: white;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        }
+        .warning{
+        color: red;
+        }

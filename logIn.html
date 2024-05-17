@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Log In</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+<form action="/action_page.php">
+    <div class="window">
+
+        <h1> Авторизация</h1>
+
+        <hr>
+
+        <label for="email"><b>Логин</b></label>
+        <input id="email" type="email" placeholder="example@example.ru" pattern="/^[\w-\.]+@[\w-]+\.[a-z]}$" name="login" required>
+
+        <label for="psw"><b>Пароль</b></label>
+        <input id="psw" type="password" placeholder="Введите пароль" name="psw" pattern = "[a-z, 0-9]{6,20}$" minlength="6" maxlength="20" required>
+        <p id="message"> </p>
+        <p id="message2"> </p>
+
+
+
+        <button type="submit" class="logInButt">Войти</button>
+
+    </div>
+
+</form>
+
+</body>
+</html>
